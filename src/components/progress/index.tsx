@@ -18,7 +18,7 @@ interface Props {
 
 const progress: React.SFC<Props> = ({ totalTime, currentTime }) => {
   function getProgress() {
-    if (currentTime === 0) {
+    if (currentTime === 0 || totalTime === 0) {
       return 0;
     }
     return currentTime / totalTime;
