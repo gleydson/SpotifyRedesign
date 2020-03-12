@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SpotifyRedesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SpotifyRedesignTests.m */; };
+		0D98DB3AF1B54288BB66073E /* IBM Plex Mono Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B571BD2359A44B9A612FD6B /* IBM Plex Mono Medium.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		20EC8C34F2C9983CC72B6A3C /* libPods-SpotifyRedesignTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2981B489F310063072D29953 /* libPods-SpotifyRedesignTests.a */; };
+		238A937039A9C0FE9EE58379 /* Pods_SpotifyRedesignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE1E5DB99AB33A2749CF9A6 /* Pods_SpotifyRedesignTests.framework */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SpotifyRedesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SpotifyRedesignTests.m */; };
-		40DE5A69BC41F1B8EF0FC712 /* libPods-SpotifyRedesign-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C925613C058EF1DF5CC24C34 /* libPods-SpotifyRedesign-tvOS.a */; };
-		4FA0E220E9C7EDE46B19742A /* libPods-SpotifyRedesign-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4840A80E5F88F914DB20EBCC /* libPods-SpotifyRedesign-tvOSTests.a */; };
-		E6C901C1F705AB310841917D /* libPods-SpotifyRedesign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18931BE06A75207012A2DC28 /* libPods-SpotifyRedesign.a */; };
-		3C1FDCCC66E8448F834ADF54 /* IBM Plex Mono Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2B6F665C4394A8899040BD8 /* IBM Plex Mono Bold.ttf */; };
 		2EB510BE499D4B9E96BFAF01 /* IBM Plex Mono Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B644AF6B38D64A21B35F3F05 /* IBM Plex Mono Italic.ttf */; };
+		3C1FDCCC66E8448F834ADF54 /* IBM Plex Mono Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2B6F665C4394A8899040BD8 /* IBM Plex Mono Bold.ttf */; };
 		5A2988569E2E43D6A7398869 /* IBM Plex Mono Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2689BF149774C3EBC086AB4 /* IBM Plex Mono Light.ttf */; };
-		0D98DB3AF1B54288BB66073E /* IBM Plex Mono Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B571BD2359A44B9A612FD6B /* IBM Plex Mono Medium.ttf */; };
+		6CECC02370BE819A2D564605 /* Pods_SpotifyRedesign_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933931529D636C758DEF4C70 /* Pods_SpotifyRedesign_tvOS.framework */; };
+		83E432FDD3C91B0CF4452864 /* Pods_SpotifyRedesign_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1310340948275C805F2DEE56 /* Pods_SpotifyRedesign_tvOSTests.framework */; };
+		84805F1B2419E68E001A7AAC /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84805F1A2419E68E001A7AAC /* Feather.ttf */; };
+		DF5BC438D03151120BCAF48F /* Pods_SpotifyRedesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2190759C9983BD87F1B37ADD /* Pods_SpotifyRedesign.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		00E356F21AD99517003FC87E /* SpotifyRedesignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyRedesignTests.m; sourceTree = "<group>"; };
 		0E5644CAE08C76CDB1B95317 /* Pods-SpotifyRedesignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesignTests.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesignTests/Pods-SpotifyRedesignTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EF7AD11F1DA19C58EC9BFD5 /* Pods-SpotifyRedesign-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesign-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesign-tvOSTests/Pods-SpotifyRedesign-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1310340948275C805F2DEE56 /* Pods_SpotifyRedesign_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyRedesign_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SpotifyRedesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyRedesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SpotifyRedesign/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SpotifyRedesign/AppDelegate.m; sourceTree = "<group>"; };
@@ -57,24 +59,24 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpotifyRedesign/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpotifyRedesign/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SpotifyRedesign/main.m; sourceTree = "<group>"; };
-		18931BE06A75207012A2DC28 /* libPods-SpotifyRedesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpotifyRedesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2981B489F310063072D29953 /* libPods-SpotifyRedesignTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpotifyRedesignTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2190759C9983BD87F1B37ADD /* Pods_SpotifyRedesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyRedesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B571BD2359A44B9A612FD6B /* IBM Plex Mono Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBM Plex Mono Medium.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Medium.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SpotifyRedesign-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpotifyRedesign-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SpotifyRedesign-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpotifyRedesign-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4840A80E5F88F914DB20EBCC /* libPods-SpotifyRedesign-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpotifyRedesign-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE1E5DB99AB33A2749CF9A6 /* Pods_SpotifyRedesignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyRedesignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4545192B5A9C9B43C75A0B /* Pods-SpotifyRedesign-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesign-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesign-tvOS/Pods-SpotifyRedesign-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		84805F1A2419E68E001A7AAC /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		8692159203A360E26A7AF2FA /* Pods-SpotifyRedesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesignTests.release.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesignTests/Pods-SpotifyRedesignTests.release.xcconfig"; sourceTree = "<group>"; };
+		933931529D636C758DEF4C70 /* Pods_SpotifyRedesign_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyRedesign_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6B903C4116A8EDA8AD4A48 /* Pods-SpotifyRedesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesign.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesign/Pods-SpotifyRedesign.debug.xcconfig"; sourceTree = "<group>"; };
-		C925613C058EF1DF5CC24C34 /* libPods-SpotifyRedesign-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpotifyRedesign-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2689BF149774C3EBC086AB4 /* IBM Plex Mono Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBM Plex Mono Light.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Light.ttf"; sourceTree = "<group>"; };
+		B644AF6B38D64A21B35F3F05 /* IBM Plex Mono Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBM Plex Mono Italic.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Italic.ttf"; sourceTree = "<group>"; };
+		C2B6F665C4394A8899040BD8 /* IBM Plex Mono Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBM Plex Mono Bold.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Bold.ttf"; sourceTree = "<group>"; };
 		E32DE3774BAE2B9097337439 /* Pods-SpotifyRedesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesign.release.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesign/Pods-SpotifyRedesign.release.xcconfig"; sourceTree = "<group>"; };
 		E7BFD28A178DC30E483F8BA0 /* Pods-SpotifyRedesign-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesign-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesign-tvOSTests/Pods-SpotifyRedesign-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F3CC4A55EE11F20D8364FF16 /* Pods-SpotifyRedesign-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyRedesign-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyRedesign-tvOS/Pods-SpotifyRedesign-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C2B6F665C4394A8899040BD8 /* IBM Plex Mono Bold.ttf */ = {isa = PBXFileReference; name = "IBM Plex Mono Bold.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B644AF6B38D64A21B35F3F05 /* IBM Plex Mono Italic.ttf */ = {isa = PBXFileReference; name = "IBM Plex Mono Italic.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2689BF149774C3EBC086AB4 /* IBM Plex Mono Light.ttf */ = {isa = PBXFileReference; name = "IBM Plex Mono Light.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2B571BD2359A44B9A612FD6B /* IBM Plex Mono Medium.ttf */ = {isa = PBXFileReference; name = "IBM Plex Mono Medium.ttf"; path = "../src/assets/fonts/IBMPlexMono/IBM Plex Mono Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20EC8C34F2C9983CC72B6A3C /* libPods-SpotifyRedesignTests.a in Frameworks */,
+				238A937039A9C0FE9EE58379 /* Pods_SpotifyRedesignTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6C901C1F705AB310841917D /* libPods-SpotifyRedesign.a in Frameworks */,
+				DF5BC438D03151120BCAF48F /* Pods_SpotifyRedesign.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40DE5A69BC41F1B8EF0FC712 /* libPods-SpotifyRedesign-tvOS.a in Frameworks */,
+				6CECC02370BE819A2D564605 /* Pods_SpotifyRedesign_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA0E220E9C7EDE46B19742A /* libPods-SpotifyRedesign-tvOSTests.a in Frameworks */,
+				83E432FDD3C91B0CF4452864 /* Pods_SpotifyRedesign_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +135,7 @@
 		13B07FAE1A68108700A75B9A /* SpotifyRedesign */ = {
 			isa = PBXGroup;
 			children = (
+				84B9F2A2241814840098B7F3 /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -149,12 +152,23 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				18931BE06A75207012A2DC28 /* libPods-SpotifyRedesign.a */,
-				C925613C058EF1DF5CC24C34 /* libPods-SpotifyRedesign-tvOS.a */,
-				4840A80E5F88F914DB20EBCC /* libPods-SpotifyRedesign-tvOSTests.a */,
-				2981B489F310063072D29953 /* libPods-SpotifyRedesignTests.a */,
+				2190759C9983BD87F1B37ADD /* Pods_SpotifyRedesign.framework */,
+				933931529D636C758DEF4C70 /* Pods_SpotifyRedesign_tvOS.framework */,
+				1310340948275C805F2DEE56 /* Pods_SpotifyRedesign_tvOSTests.framework */,
+				4BE1E5DB99AB33A2749CF9A6 /* Pods_SpotifyRedesignTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AC33464D5924B54A091E4A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2B6F665C4394A8899040BD8 /* IBM Plex Mono Bold.ttf */,
+				B644AF6B38D64A21B35F3F05 /* IBM Plex Mono Italic.ttf */,
+				B2689BF149774C3EBC086AB4 /* IBM Plex Mono Light.ttf */,
+				2B571BD2359A44B9A612FD6B /* IBM Plex Mono Medium.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -191,6 +205,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		84B9F2A2241814840098B7F3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84805F1A2419E68E001A7AAC /* Feather.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		A9A7B2D2C0B8CC2C18E8D933 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,21 +225,8 @@
 				0E5644CAE08C76CDB1B95317 /* Pods-SpotifyRedesignTests.debug.xcconfig */,
 				8692159203A360E26A7AF2FA /* Pods-SpotifyRedesignTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		7AC33464D5924B54A091E4A1 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				C2B6F665C4394A8899040BD8 /* IBM Plex Mono Bold.ttf */,
-				B644AF6B38D64A21B35F3F05 /* IBM Plex Mono Italic.ttf */,
-				B2689BF149774C3EBC086AB4 /* IBM Plex Mono Light.ttf */,
-				2B571BD2359A44B9A612FD6B /* IBM Plex Mono Medium.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -251,6 +260,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				9F61A9EB9C5F33B2DBE72149 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,6 +339,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -358,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				84805F1B2419E68E001A7AAC /* Feather.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				3C1FDCCC66E8448F834ADF54 /* IBM Plex Mono Bold.ttf in Resources */,
 				2EB510BE499D4B9E96BFAF01 /* IBM Plex Mono Italic.ttf in Resources */,
@@ -433,6 +445,78 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		9F61A9EB9C5F33B2DBE72149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotifyRedesign/Pods-SpotifyRedesign-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
+				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/RNReanimated/RNReanimated.framework",
+				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
+				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNReanimated.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotifyRedesign/Pods-SpotifyRedesign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		CDDFD25EAF4561B06674080F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
