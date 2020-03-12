@@ -18,6 +18,7 @@ const tabBar: React.SFC<BottomTabBarProps> = ({
       {state.routes.map((route, index) => {
         const { options } = descriptors[route.key];
         let label = '';
+
         const Icon = options.tabBarIcon;
         if (
           typeof options.tabBarLabel === 'string' &&
@@ -33,21 +34,9 @@ const tabBar: React.SFC<BottomTabBarProps> = ({
         const isFocused = state.index === index;
 
         function onPress() {
-          const event = navigation.emit({
-            type: 'tabPress',
-            target: route.key,
-          });
-
-          if (!isFocused && !event.defaultPrevented) {
+          if (!isFocused) {
             navigation.navigate(route.name);
           }
-        }
-
-        function onLongPress() {
-          navigation.emit({
-            type: 'tabLongPress',
-            target: route.key,
-          });
         }
 
         return (
@@ -58,9 +47,8 @@ const tabBar: React.SFC<BottomTabBarProps> = ({
             accessibilityLabel={options.tabBarAccessibilityLabel}
             testID={options.tabBarTestID}
             onPress={onPress}
-            onLongPress={onLongPress}
           >
-            {showIcon && <Icon focused={isFocused} size={30} />}
+            {showIcon && <Icon focused={isFocused} size={30} color='' />}
             {showLabel && (
               <Label style={labelStyle} isFocused={isFocused}>
                 {label}

@@ -4,15 +4,7 @@ interface IContainer {
   bottomSafe: number;
 }
 
-export const Container = styled.View.attrs({
-  shadowRadius: 2,
-  shadowOffset: {
-    width: 0,
-    height: -3,
-  },
-  shadowColor: '#fff',
-  elevation: 4,
-}) <IContainer>`
+export const Container = styled.View<IContainer>`
   background-color: ${props => props.theme.colors.backgroundPrimary};
   flex-direction: row;
   padding-top: 10px;
@@ -33,7 +25,7 @@ interface ILabel {
 
 export const Label = styled.Text<ILabel>`
   color: ${({ isFocused, theme }) =>
-    isFocused ? theme.colors.primary : theme.colors.disable};
+    isFocused ? theme.colors.primary : theme.colors.dark};
   text-transform: lowercase;
   font-size: ${props => props.theme.fonts.smaller};
   font-family: ${props => props.theme.fonts.fontFamilyLight};
