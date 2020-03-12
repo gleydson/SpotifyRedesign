@@ -35,12 +35,18 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "no-unused-vars": [
+    "max-len": [
       "error",
       {
-        "varsIgnorePattern": "ImageSourcePropType"
+        "code": 80,
+        "ignoreUrls": true,
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignorePattern": "^\\s*const\\s.+=\\s*require\\s*\\("
       }
     ],
+    "no-unused-vars": 0,
+    "@typescript-eslint/no-unused-vars": 2,
     "react/prop-types": "off",
     "import/no-unresolved": "off",
     "react/state-in-constructor": "off",
@@ -49,12 +55,14 @@
     "import/extensions": "off",
     "react-native/no-raw-text": "off",
     "import/prefer-default-export": "off",
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
     "react/jsx-filename-extension": [
       "error",
       {
         "extensions": [".ts", ".tsx"]
       }
     ],
+    "global-require": "error",
     "camelcase": "off",
     "import-helpers/order-imports": [
       "warn",
