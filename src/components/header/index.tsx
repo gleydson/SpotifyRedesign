@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { ImageSourcePropType, ImageURISource } from 'react-native';
+import { ImageSourcePropType } from 'react-native';
 
 import {
   Container,
@@ -34,6 +34,9 @@ const header: React.SFC<Props> = ({
   }
 
   function renderIcon() {
+    if (rightIcon === undefined) {
+      return null;
+    }
     if (typeof rightIcon === 'string') {
       return <Icon name={rightIcon} />;
     }
