@@ -11,7 +11,11 @@ const MainStack = createStackNavigator();
 export default function Routes() {
   return (
     <MainStack.Navigator
-      screenOptions={{ gestureEnabled: true, cardOverlayEnabled: true }}
+      screenOptions={{
+        gestureEnabled: true,
+        cardOverlayEnabled: true,
+        gestureDirection: 'vertical',
+      }}
       headerMode='none'
       mode='modal'
     >

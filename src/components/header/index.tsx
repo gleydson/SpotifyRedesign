@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { ImageSourcePropType } from 'react-native';
+import { ImageSourcePropType, ImageURISource } from 'react-native';
 
 import {
   Container,
@@ -11,8 +11,6 @@ import {
   Icon,
   Title,
 } from './styled';
-
-const back = require('@assets/images/back/back.png');
 
 interface Props {
   backButtonEnabled?: boolean;
@@ -30,7 +28,7 @@ const header: React.SFC<Props> = ({
   const navigation = useNavigation();
 
   function handlePressBackButton() {
-    if (backButtonEnabled) {
+    if (backButtonEnabled && navigation.canGoBack()) {
       navigation.goBack();
     }
   }
