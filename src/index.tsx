@@ -13,8 +13,8 @@ export default function App() {
     <ThemeProvider theme={dark}>
       <NavigationContainer>
         <StatusBar
-          backgroundColor={dark.colors.backgroundPrimary}
-          barStyle="light-content"
+          backgroundColor={dark.colors.backgroundSecondary}
+          barStyle='light-content'
         />
         <Routes />
       </NavigationContainer>
