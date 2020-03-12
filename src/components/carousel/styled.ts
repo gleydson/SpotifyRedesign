@@ -1,48 +1,28 @@
-import { StyleSheet, Dimensions, Platform } from 'react-native';
-import SnapCarousel, { ParallaxImage } from 'react-native-snap-carousel';
+import SnapCarousel from 'react-native-snap-carousel';
 
 import styled from 'styled-components/native';
 
-const { width: screenWidth } = Dimensions.get('window');
-
 export const Container = styled.View``;
 
-export const Carousel = styled(SnapCarousel).attrs({
-  sliderWidth: screenWidth - 60,
-  sliderHeight: screenWidth - 200,
-  itemWidth: screenWidth - 60,
-})``;
+export const Carousel = styled(SnapCarousel).attrs(props => ({
+  sliderWidth: props.theme.metrics.widthScreen,
+  itemWidth:
+    props.theme.metrics.widthScreen - props.theme.metrics.widthScreen * 0.35,
+  loop: true,
+  layout: 'default',
+  inactiveSlideScale: 0.8,
+}))``;
 
-export const ContainerItem = styled.View`
-  width: ${screenWidth - 60}px;
-  height: ${screenWidth - 200}px;
-`;
+export const TouchableItem = styled.TouchableOpacity``;
 
-export const Parallax = styled(ParallaxImage).attrs({
-  style: {
-    ...StyleSheet.absoluteFillObject,
-    resizeMode: 'cover',
-  },
-  containerStyle: {
-    flex: 1,
-    marginBottom: Platform.select({ ios: 0, android: 1 }),
-    backgroundColor: 'white',
-    borderRadius: 8,
-  },
-})``;
+export const ContainerItem = styled.View``;
 
-export const Title = styled.Text`
-  font-family: ${props => props.theme.fonts.fontFamily};
-  font-size: ${props => props.theme.fonts.medium};
-  color: ${props => props.theme.colors.primary};
-  letter-spacing: ${props => props.theme.fonts.letterSpacing};
-  margin-bottom: 5px;
-`;
+export const Card = styled.Image``;
 
 export const Label = styled.Text`
-  font-family: ${props => props.theme.fonts.fontFamily};
+  font-family: ${props => props.theme.fonts.fontFamilyBold};
   font-size: ${props => props.theme.fonts.small};
   letter-spacing: ${props => props.theme.fonts.letterSpacing};
   color: ${props => props.theme.colors.text};
-  margin-top: 5px;
+  padding-top: 10px;
 `;

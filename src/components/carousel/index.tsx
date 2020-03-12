@@ -4,37 +4,51 @@ import { ImageSourcePropType } from 'react-native';
 import {
   Container,
   Carousel,
+  TouchableItem,
   ContainerItem,
-  Parallax,
+  Card,
   Label,
-  Title,
 } from './styled';
 
-interface CarouselItem {
-  thumbnail: ImageSourcePropType;
-  label: string;
-  onPress?(): void;
+const elton_john = require('@assets/images/cards/main/elton_john.png');
+const lalaland = require('@assets/images/cards/main/lalaland.png');
+const queen = require('@assets/images/cards/main/queen.png');
+
+interface ItemProps {
+  item: { image: ImageSourcePropType; label: string };
+  index: number;
 }
 
-interface Props {
-  title: string;
-  data: CarouselItem[];
-}
+const data = [
+  {
+    image: elton_john,
+    label: 'Elton John',
+  },
+  {
+    image: lalaland,
+    label: 'Lalaland',
+  },
+  {
+    image: queen,
+    label: 'Legendary',
+  },
+];
 
-const carousel: React.SFC<Props> = ({ title, data }) => {
-  function renderItem(item: { item: CarouselItem; index: number }) {
+const carousel: React.SFC = () => {
+  function renderItem({ item, index }: ItemProps) {
     return (
-      <ContainerItem key={item.index}>
-        <Parallax source={item.item.thumbnail} parallaxFactor={0.4} />
-        <Label>{item.item.label}</Label>
-      </ContainerItem>
+      <TouchableItem>
+        <ContainerItem key={String(index)}>
+          <Card source={item.image} />
+          <Label>{item.label}</Label>
+        </ContainerItem>
+      </TouchableItem>
     );
   }
 
   return (
     <Container>
-      <Title>{title}</Title>
-      <Carousel data={data} renderItem={renderItem} hasParallaxImages />
+      <Carousel data={data} renderItem={renderItem} />
     </Container>
   );
 };
