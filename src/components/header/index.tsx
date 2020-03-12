@@ -49,9 +49,7 @@ const header: React.SFC<Props> = ({
         {backButtonEnabled && <Icon name='chevron-left' />}
       </ContainerLeft>
       <ContainerCenter>{title && <Title>{title}</Title>}</ContainerCenter>
-      <ContainerRight onPress={rightIconOnPress}>
-        {rightIcon && renderIcon()}
-      </ContainerRight>
+      <ContainerRight onPress={rightIconOnPress}>{renderIcon()}</ContainerRight>
     </Container>
   );
 };
