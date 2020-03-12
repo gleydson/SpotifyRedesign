@@ -1,5 +1,6 @@
 <h1 align="center">
-  <img src="./spotify.svg" alt="Pale Moon" width="150">
+  <img src="./spotify.svg" alt="Spotify" width="100">
+<br>
 <br>
 Spotify Redesign
 </h1>
