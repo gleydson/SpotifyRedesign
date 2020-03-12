@@ -9,15 +9,26 @@ declare module 'styled-components' {
       backgroundPrimary: string;
       backgroundSecondary: string;
       text: string;
-      disable: string;
+      regular: string;
+      dark: string;
+      darker: string;
     };
 
     fonts: {
-      fontFamily: string;
+      fontFamilyBold: string | undefined;
+      fontFamilyItalic: string;
+      fontFamilyLight: string;
+      fontFamilyMedium: string;
       big: string;
       medium: string;
       small: string;
+      smaller: string;
       letterSpacing: string;
+    };
+
+    metrics: {
+      widthScreen: number;
+      heightScreen: number;
     };
   }
 }
