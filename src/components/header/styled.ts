@@ -1,28 +1,34 @@
+import FeatherIcon from 'react-native-vector-icons/Feather';
+
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  height: 50px;
-  background-color: ${props => props.theme.colors.backgroundPrimary};
-  padding: 5px;
+  background-color: ${props => props.theme.colors.backgroundSecondary};
+  padding: 20px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 `;
 
-export const Icon = styled.Image``;
+export const IconImage = styled.Image``;
+
+export const Icon = styled(FeatherIcon).attrs(props => ({
+  size: 30,
+  color: props.theme.colors.primary,
+}))``;
 
 export const Title = styled.Text`
   color: ${props => props.theme.colors.primary};
   text-transform: uppercase;
   font-size: ${props => props.theme.fonts.big};
-  font-family: ${props => props.theme.fonts.fontFamily};
+  font-family: ${props => props.theme.fonts.fontFamilyBold};
   letter-spacing: ${props => props.theme.fonts.letterSpacing};
 `;
 
 export const ContainerLeft = styled.TouchableOpacity.attrs({
   hitSlop: { top: 10, left: 20, bottom: 10, right: 20 },
 })`
-  flex: 1;
+  width: 30px;
 `;
 
 export const ContainerCenter = styled.View`
@@ -34,6 +40,6 @@ export const ContainerCenter = styled.View`
 export const ContainerRight = styled.TouchableOpacity.attrs({
   hitSlop: { top: 10, left: 20, bottom: 10, right: 20 },
 })`
-  flex: 1;
+  width: 30px;
   align-items: flex-end;
 `;
