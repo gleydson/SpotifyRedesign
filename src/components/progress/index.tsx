@@ -27,10 +27,9 @@ const progress: React.SFC<Props> = ({ totalTime, currentTime }) => {
   function formatDate(milliseconds: number) {
     if (milliseconds !== 0) {
       const result = format(new Date(0, 0, 0, 0, 0, 0, milliseconds), 'm:s');
-      if (result === '0:0') {
-        return '0';
+      if (result !== '0:0') {
+        return result;
       }
-      return result;
     }
     return '0';
   }
