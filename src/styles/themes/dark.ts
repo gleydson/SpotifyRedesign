@@ -3,8 +3,6 @@ import { Platform, Dimensions } from 'react-native';
 const { width, height } = Dimensions.get('screen');
 
 export default {
-  title: 'dark',
-
   colors: {
     primary: '#25A84E',
     backgroundPrimary: '#101010',
