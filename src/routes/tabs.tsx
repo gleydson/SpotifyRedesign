@@ -40,8 +40,6 @@ export default function Tabs() {
         showIcon: true,
         showLabel: true,
         keyboardHidesTabBar: false,
-        activeTintColor: 'red',
-        inactiveTintColor: 'blue',
       }}
     >
       <Tab.Screen
